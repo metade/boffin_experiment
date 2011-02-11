@@ -1,0 +1,20 @@
+Boffin Experiment
+=================
+
+The Big Boffin experiment was a toy car race between Scott Mills and Mistajam conducted by BBC Radio 1
+based on tweets with the hashtag #bbcr1race. Listeners could participate by tweeting @scott_mills or 
+@mistajam - each tweet would result in one of the cars moving. The more tweets received, the faster the
+cars ran. Check out the video here:
+
+http://www.bbc.co.uk/programmes/p00f078b
+
+Implementation
+--------------
+
+We used:
+* The Twitter Streaming API
+* A Ruby script using the TweetStream Gem to fetch tweets in realtime
+* The Ruby script posted to an HTTP->USB server written in C (https://github.com/njh/k8055httpd)
+* A Velleman K8055 and a Velleman K8056 kits
+
+Read the source code to see how it works! :)
